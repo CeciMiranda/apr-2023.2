@@ -1,0 +1,23 @@
+site_name: Material for MkDocs
+site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: Martin Donath
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
+
+theme:
+  name: material
+
+repo_name:
+repo_url: https://github.com/CeciMiranda/apr-2023.2
+
+nav:
+- index.md
+- pedra.md
+- papel.md
+- tesoura.md
+- Ensaios:  
+  - ensaios/mermaid.md
+
+plugins:
+- mermaid2
